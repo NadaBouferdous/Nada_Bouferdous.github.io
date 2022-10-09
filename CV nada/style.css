@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap');
+*  
+body{
+    margin: 1rem;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Condensed', sans-serif;
+} 
+
+.left-image{
+    text-align: center;
+}
+body{
+    background-color: gainsboro;
+}
+ul{
+    list-style: none;
+}
+main{
+    display: grid;
+    grid-template-columns: 20.2% 1fr;
+    grid-gap: 1rem
+}
+.personal, .skills, .languages{
+    padding: 1rem;
+}
+.left{
+    background-color:gainsboro;
+    margin-top: 1.3rem;
+}
+.right{
+    background-color:  gainsboro;
+}
+.Contact{
+    background-color: whitesmoke;
+    padding: 1rem 0;
+    margin-top: 2rem;
+}
+.Compétences, .Langues{
+    background-color: whitesmoke;
+    padding: 1rem 0;
+}
+.left-imag{
+    width: 100%;
+}
+.left-imag{
+    position: relative;
+}  
+.left-imag h2{
+    position: absolute;
+    border-bottom: 0%;
+}    
+
+.InformationsPersonnelles {
+    background-color: white;
+    margin-top: 1rem;
+    padding: 1rem;
+}
+.Exassociative {
+    background-color: white;
+    margin-top: 1rem;
+    padding: 1rem;
+}
+.Education {
+    background-color: white;
+    margin-top: 1rem;
+    padding: 1rem;
+}
+.Expériences {
+    background-color: white;
+    padding: 1rem;
+}
+
+.left h2{
+    margin-left: 3rem;
+    margin-bottom: 0%;
+    
+}
+.left h3{
+    margin-left: 1rem;
+}
+.h1{
+    background-color: aliceblue;
+    color: black;
+    padding: 1rem;
+    border-radius: 3px;
+    text-align: center;
+}
+
+
+
+.Compétences{
+    margin-top: 1rem ;
+}
+.Expériences{
+    line-height: 1rem;
+}
+.Expériences ul, .Exassociative ul, .Education ul{
+    margin: 2rem 0;
+    line-height: 1.5rem;
+}
+
+
+li.date{
+    color: blue;
+}
+footer {
+    background-color: rgb(28, 99, 99);
+    padding: 2rem 0;
+    line-height: 0.5rem;
+    text-align: center;
+    margin-top: 2rem;
+}
+.detail{
+    line-height: 1rem;
+}
+
+
